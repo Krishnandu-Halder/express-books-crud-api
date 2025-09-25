@@ -17,3 +17,18 @@ Supports **CRUD operations** (Create, Read, Update, Delete) with in-memory stora
 ```bash
 npm install
 npm start
+```
+
+🧪 Testing
+
+Use Postman or cURL to test endpoints.
+
+Example:
+  ```bash
+POST /books
+{
+  "title": "New Book",
+  "author": "New Author"
+}
+```
+---
